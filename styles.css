@@ -1,0 +1,32 @@
+#folder-overlay {
+    position: fixed;
+    top: 50px;
+    right: 20px;
+    background: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+    z-index: 9999;
+    width: 250px;
+}
+
+.folder-overlay-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.folder {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.folder + ul {
+    margin-left: 15px;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #0078d4;
+}
